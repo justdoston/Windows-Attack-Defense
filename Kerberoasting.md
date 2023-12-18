@@ -14,3 +14,5 @@ To obtain crackable tickets, we can use Rubeus. When we run the tool with the ke
 
 We then need to move the extracted file with the tickets to the Kali Linux VM for cracking (we will only focus on the one for the account Administrator, even though Rubeus extracted two tickets)<br>
 **We can use hashcat with the hash-mode (option -m) 13100 for a Kerberoastable TGS**
+<br>
+![image](https://github.com/offensivecyber03/Windows-Attack-Defense/assets/71892943/4f2c4374-6122-415f-a403-90a128232d8a)
