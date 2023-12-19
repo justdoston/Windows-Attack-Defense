@@ -9,10 +9,10 @@ PS C:\Users\bob\Downloads> .\Rubeus.exe asreproast /outfile:asrep.txt
 ```
 ![image](https://github.com/offensivecyber03/Windows-Attack-Defense/assets/71892943/d1e00535-b8c0-42e4-9f7b-7070c5610be3)
 
-``
+`
 NOTE: Once Rubeus obtains the hash for the user Anni (the only one in the playground environment with preauthentication not required),<br> we will move the output text file to a linux attacking machine.
 For hashcat to be able to recognize the hash<br> we will use hashcat 18200 mode and we need to edit it by adding 23$ after $krb5asrep$:
-``
+`
 ![image](https://github.com/offensivecyber03/Windows-Attack-Defense/assets/71892943/1a2ce6c0-97be-4b6a-8cb4-459ffd526daf)<br>
 
 
